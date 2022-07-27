@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sideber {
+    background-color: darkslategray;
+    width: 226px;
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+    color: white;
+}
+
+.sideber nav {
+    padding: 32px;
+    font-size: 30px;
+}
+
+.sideber nav li {
+    list-style: none;
+    padding: 24px 0px;
+}
+
+.sideber nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Home page*/
+.main {
+    background-color: black;
+    color: white;
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgb(108 108 103); */
+    height: 80vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.divpic img {
+    width: 49vh;
+}
+
+.hello {
+    font-size: 87px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.moreabout {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.name {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 42px;
+}
+
+
+.button {
+    margin-top: 34px;
+}
+
+.button button {
+    padding: 21px 42px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 19px;
+    color: white;
+    background-color: darkslategray;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.button button:hover {
+
+    background-color: white;
+    color: darkslategray;
+}
+
+@media (max-width: 1615px) {
+    *{
+        padding: 0;
+        margin: 0;
+        background-color: black;
+    }
+    .sideber{
+        transform: translate(-443px ,0px);
+        position: absolute;
+    }
+    .hello {
+        font-size: 34px;
+        font-family: 'PT Sans', sans-serif;
+    }
+    .moreabout {
+        font-size: 15px;
+        margin-top: 10px;
+        font-family: 'PT Sans', sans-serif;
+    }
+}
+/* ending of index page coding in css */

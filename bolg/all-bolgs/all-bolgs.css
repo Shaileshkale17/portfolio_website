@@ -1,0 +1,134 @@
+/* Home page*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sideber {
+    background-color: darkslategray;
+    width: 226px;
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+    color: white;
+}
+#sideber {
+    height: auto;
+}
+
+.sideber nav {
+    padding: 32px;
+    font-size: 30px;
+}
+
+.sideber nav li {
+    list-style: none;
+    padding: 24px 0px;
+}
+
+.sideber nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background-color: black;
+    color: white;
+    width: 90vw;
+}
+
+/* Home Bolg*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.BolgContainer {
+    display: flex;
+    justify-content: space-around;
+    display: block;
+}
+
+.Bolg {
+    padding-top: 28px;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 71px;
+}
+
+.Bolg img {
+    width: 497px;
+    padding-left: 46vh;
+    padding-top: 5px;
+}
+#c_img {
+    width: 299px;
+    padding-left: 59vh;
+    padding-top: 5px;
+}
+
+#imgtag {
+    width: 331px;
+    padding-left: 56vh;
+    padding-top: 5px;
+}
+
+.Bolg h1 {
+    display: contents;
+}
+.Bolg h2 {
+    padding-left: 55vh;
+    font-size: 11vh;
+}
+
+#CssAndPhp {
+    padding-left: 61vh;
+    padding-left: 61vh;
+    font-size: 11vh;
+}
+
+#javascript {
+    padding-left: 464px;
+}
+#H2_C_Programming {
+    padding-left: 37vh;
+    font-size: 10vh;
+}
+
+.Bolg h3 {
+    padding-left: 45vh;
+    font-size: 8vh;
+}
+
+#javascripts {
+    padding-left: 53vh;
+    font-size: 5vh;
+}
+
+#Php {
+    padding-left: 50vh;
+    font-size: 8vh;
+}
+
+#HelpInCss {
+    padding-left: 37vh;
+    font-size: 8vh;
+}
+#H3_C_Programming {
+    padding-left: 36vh;
+    font-size: 5vh;
+}
+
+.Bolg p {
+    padding: 9px;
+    font-size: 21px;
+}
+#bolg-page {
+    padding: 9px;
+    font-size: 21px;
+}
+
+
+/* ending of Bolg's page coding in css */

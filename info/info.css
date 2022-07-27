@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sideber {
+    background-color: darkslategray;
+    width: 226px;
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+    color: white;
+}
+
+.sideber nav {
+    padding: 32px;
+    font-size: 30px;
+}
+
+.sideber nav li {
+    list-style: none;
+    padding: 24px 0px;
+}
+
+.sideber nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background-color: black;
+    color: white;
+    width: 90vw;
+}
+
+/* Home Bolg*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: normal;
+    display: block;
+    padding-left: 32vh;
+    padding-right: 32vh;
+}
+
+.divinfo {
+    padding-top: 11px;
+    width: 336px;
+    display: contents;
+}
+
+.divinfo h1 {
+    padding-left: 44px;
+}
+
+.divinfo h4 {
+    padding-top: 22px;
+    padding-bottom: 3px;
+    font-size: 12px;
+}
+
+.divinfo h2 {
+    padding-left: 138px;
+
+}
+
+.divinfo h3 {
+    padding-left: 24px;
+}
+
+.moreabout p {
+    padding: 7px;
+    padding-left: 26px;
+    font-size: 20px;
+}
+
+.box{
+    width: 40%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 9px;
+    margin: auto;
+}
+.progress{
+    width: 100%;
+    background-color: rgb(56, 49, 49);
+    border-radius: 10px;
+    margin: 18px 0px;
+    height: 25px;
+}
+.progress-bar{
+    height: 100%;
+    width: 0;
+    background-color: rgb(19, 117, 124);
+    border-radius: 10px;
+    position: relative;
+    transition: all 1.5s;
+}
+.progress-bar span{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.box-flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+/* button calss */
+.button {
+    margin-top: 14px;
+}
+.button button {
+    padding: 18px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    background-color: darkslategray;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.button button:hover {
+
+    background-color: white;
+    color: darkslategray;
+}
+
+#ide{
+    font-family: 'PT Sans', sans-serif;
+}
