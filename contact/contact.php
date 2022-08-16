@@ -3,6 +3,16 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $database= "contact";
+//
+$conn = mysqli_connect($servername,$username,$password,$database);
+if (!$conn) {
+    die("sorry we failed to connect: ".mysqli_connect_error());
+}
+else {
+    echo "Connection was successful<br>";
+}
+
+$sql =SELECT * FROM `contactus`
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,11 +31,11 @@ $database= "contact";
         <div class="sideber">
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/info/info.html">My intre</a></li>
-                    <li><a href="/services/services.html">Services</a></li>
-                    <li><a href="/bolg/bolg.html">Blog</a></li>
-                    <li><a href="/contact/contact.html">Contact Me</a></li>
+                <li><a href="/index.PHP">Home</a></li>
+                    <li><a href="/info/info.PHP">My intre</a></li>
+                    <li><a href="/services/services.PHP">Services</a></li>
+                    <li><a href="/bolg/bolg.PHP">Blog</a></li>
+                    <li><a href="/contact/contact.PHP">Contact Me</a></li>
                 </ul>
             </nav>
         </div>
